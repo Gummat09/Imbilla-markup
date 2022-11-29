@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Let Count</title>
+</head>
+<body>
+    <form action="#" class="form_container">
+        <h1 class="form_title">Imbilla Mark-up Calculator</h1>
+        <div class="form_group">
+            <label for="amount">Enter Total Amount</label>
+            <input type="number" class="inputt amnt">
+        </div>
+
+        <div class="form_group">
+            <label for="uni">Enter Unit Prize</label>
+            <input type="number" class="inputt uni" disabled>
+        </div>
+
+        <div class="buttons">
+            <button id="amount" class="btn_amount btn" type="button">Click me</button>
+            <button id="unit" disabled class="btn_uni btn" type="button">wait...</button>
+            <button id="reset" class="btn">Reset</button>
+        </div>
+
+
+        <h3 id="results">0</h3>
+    </form>
+
+
+    <script src="script.js"> </script>
+</body>
+</html>
